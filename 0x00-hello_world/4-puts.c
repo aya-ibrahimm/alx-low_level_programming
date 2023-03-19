@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 
 /**
  * main- first comment in c
