@@ -9,6 +9,7 @@ int main(void)
 {
 	char *s = "abcdfghijklmnoprstuvwxyz1";
 	int i = 0;
+
 	while (s[i] != '1')
 	{
 	putchar(s[i]);
