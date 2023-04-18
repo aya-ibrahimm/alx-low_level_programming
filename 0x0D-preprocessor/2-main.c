@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	printf("the program was compiled from this %s \n", __FILE__);
+	printf("%s \n", __FILE__);
 return (0);
 }
