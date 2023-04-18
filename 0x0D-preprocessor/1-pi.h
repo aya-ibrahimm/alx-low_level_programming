@@ -1,13 +1,4 @@
-#include <std.io>
-#define PI 3.14
-
-/**
- * main - PI constant number 
- *
- * Return: return(0)
- */
-
-int main() 
-{
-printf(" value of pi is %f", PI);
-}
+#ifndef PI_CONSTANT_NUMBER_FLOAT_H
+#define PI_CONSTANT_NUMBER_FLOAT_H
+#define PI 3.14159265359
+#endif /* PI_CONSTANT_NUMBER_FLOAT_H */
