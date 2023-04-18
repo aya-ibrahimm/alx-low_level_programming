@@ -2,5 +2,5 @@
 
 #define -object_like_macro.h
 
-#define size 1024
+#define SIZE 1024
 #endif /* -object_like_macro.h */
