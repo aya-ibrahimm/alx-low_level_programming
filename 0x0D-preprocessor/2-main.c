@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- *main - developing a program that prints a name of file that it was cpiled from before
+ * main - developing a program that prints a name of file that it was cpiled from before
  *
- *Return: always return number 0
+ * Return: always return number 0
  *
  */
 int main(void)
 {
-	printf("the program was compiled from this %s file \n" , __FILE__);
-return(0)
+printf("the program was compiled from this %s\n" ,__FILE__);
+return(0);
 }
