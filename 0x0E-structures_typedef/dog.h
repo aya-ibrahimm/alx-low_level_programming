@@ -11,7 +11,7 @@
  *
  * Return: always return 0
  */
-struct dog
+struct dog /* dog struct */
 {
 	char *name;
 	float age;
