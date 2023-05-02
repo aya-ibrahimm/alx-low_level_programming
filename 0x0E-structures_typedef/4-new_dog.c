@@ -1,22 +1,29 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 #include "dog.h"
 
 /**
- * free_dog - func that will free the dog's struct
+ *  *new_dog - func that will create new dog's struct
  *
- * @d: ptr to dog str
+ * @owner: new owner
+ * @name: new name
+ * @age: new age
  *
- * Return: void
+ * Return: new dog struct
  */
 
-void free_dog(dog_t *d)
+dog_t *new_dog(char *name, float age, char *owner)
 {
-	if (d)
+	static dog_t new_dog_str;
+
+	if (age && name && owner)
 	{
-		free(d->name);
-		free(d->owner);
-		free(d->age);
-		free(d);
+		new_dog_str.age = age;
+		new_dog_str.name = name;
+		new_dog_str.owner = owner;
+
+		return (&new_dog_str);
 	}
+	return (NULL);
 }
