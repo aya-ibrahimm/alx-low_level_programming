@@ -24,10 +24,14 @@ int _strlen(char *str)
  */
 char *_strdup(char *str)
 {
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	int i = _strlen(str), j;
 	char *str_copy = malloc(i * sizeof(char) + 1);
 
-	if (str == NULL || str_copy == NULL)
+	if (str_copy == NULL)
 	{
 		return (NULL);
 	}
